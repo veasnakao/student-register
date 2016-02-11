@@ -1,0 +1,35 @@
+/* CSS declarations go here */
+.mybg {
+    background-color: red;
+}
+
+.header {
+    background-color: white;
+}
+.action{
+    cursor: pointer;
+}
+
+/*report style*/
+.rpt-layout {
+    width:794px;
+    height:1122px;
+    margin: 0 auto;
+}
+
+.rpt-header {
+    width: 720px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+.rpt-header img{
+    float: left;
+    width: 50px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+tr th {
+    text-align: center;
+}

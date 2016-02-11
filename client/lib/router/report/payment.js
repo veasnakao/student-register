@@ -1,0 +1,19 @@
+
+//register report
+FlowRouter.route('/paymentRpt/', {
+    name:"paymentRpt",
+    action: function(params, queryParams) {
+        BlazeLayout.render('mainLayout',{content:"paymentRpt"});
+    }
+});
+
+//register report generator
+FlowRouter.route('/paymentRptGen/', {
+    name:"paymentRptGen",
+    action: function(params, queryParams) {
+        BlazeLayout.render('reportLayout',{content:"paymentRptGen"});
+    }
+});
+
+
+
